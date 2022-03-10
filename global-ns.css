@@ -1,0 +1,155 @@
+@font-face{
+	font-family:'Reg. Modn Regular';
+	src:url('https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/fonts/Reg_Modn-RegularWEB.woff') format('woff');
+	font-style:normal;font-weight:normal
+}
+
+@font-face{
+	font-family:'Reg. Modn Bold';
+	src:url('https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/fonts/Reg_Modn-BoldWEB.woff') format('woff');
+	font-style:normal;font-weight:normal
+}
+
+html {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+body {
+	color: #252524;
+}
+
+a {
+	color: #252524;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #d82d1d;
+}
+
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	margin: 4px;
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+.embed-container {
+	font-family: 'Reg. Modn Regular', sans-serif;
+	font-size: 0.667rem;
+	line-height: 0.888rem;
+    background-image: url(https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/NewStatesman_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 100% 99%;
+}
+
+.chart-container .tick text {
+	fill: #252524;
+	font-size: 0.667rem;
+	line-height: 0.888rem;
+}
+
+.chart-container .tick line {
+	stroke-width: 1px;
+	stroke: #ccc;
+	stroke-opacity: 0.5;
+	stroke-dasharray: 0;
+}
+
+.chart-container .y-axis .tick.tick-0 line {
+	stroke: #252524;
+	stroke-opacity: 1;
+}
+
+.chart-container .x-axis .baseline {
+	stroke-dasharray: 0;
+}
+
+.small-multiple-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+ }
+
+.small-multiple, .simple-chart-container {
+    box-sizing: border-box;
+    margin: 8px;
+ }
+
+h3 {
+	margin: 0;
+    padding: 0;
+    font-size: 1.333rem;
+    line-height: 1.556rem;
+    font-family: 'Reg. Modn Bold', sans-serif;
+}
+
+h4 {
+	margin: 0;
+    padding: 0;
+    font-size: 0.888rem;
+    line-height: 1.333rem;
+    color: #252524;
+    opacity: 0.8;
+    font-weight: normal;
+    padding-bottom: 0.667rem;
+    font-family: 'Reg. Modn Regular', sans-serif;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 0.667rem;
+}
+
+.source-text {
+    color: #7f7f7f;
+    margin: 8px 0;
+    font-size: 0.667rem;
+    line-height: 0.888rem;
+    font-family: 'Reg. Modn Regular', sans-serif;
+}
+.source-text a {
+	color: #7f7f7f;
+}
+.source-text a:hover {
+    color: #252524;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #d82d1d;
+}
